@@ -1,0 +1,36 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: "Roboto", sans-serif;
+}
+#home {
+  height: 100%;
+  width: 100%;
+  display: table;
+  background-image: url(main-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.landing-text {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  font-family: "Roboto";
+}
+
+.main-text {
+  padding-bottom: 2em;
+}
+
+.my-button {
+  border: none;
+  background-color: rgba(224, 56, 22, 0.8);
+  color: white;
+  padding: 15px;
+  border-radius: 5px;
+}
+.my-button:hover {
+  cursor: pointer;
+}
